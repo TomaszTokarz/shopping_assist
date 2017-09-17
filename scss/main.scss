@@ -1,5 +1,20 @@
-.container {
+@import "settings";
+@import "_reset";
+@import "font-awesome/font-awesome.scss";
+
+@import "_title_bar";
+@import "_footer";
+
+
+body {
+    font-family: $font-family;
+    color: $color-orange;
 }
 
-.app {
+.container {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: block;
+    background: url("/images/background-main-60-2.jpg");
 }

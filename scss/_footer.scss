@@ -1,0 +1,22 @@
+@import "settings";
+
+.footer__bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: $color-gray;
+  // font-weight: 700;
+  // padding: 0 20px 15px;
+  text-align: center;
+  // text-shadow: 1px 1px $color-white, 3px 3px $color-gray ;
+  background: $color-yellow-10;
+  border-top: 2px solid $color-yellow-20;
+  line-height: 20px;
+
+  &__link {
+    color: $color-gray;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

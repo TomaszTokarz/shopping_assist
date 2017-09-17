@@ -7,8 +7,6 @@
 
     run "npm start" in console to execute webpack's developers server
 
-TIP: You can also run "install_and_run.bat" file to run this operations above automatically;
-
 3. Run application in dev version:
 
     Indicate localhost:8080/ in your browser.
