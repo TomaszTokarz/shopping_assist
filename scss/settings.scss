@@ -5,7 +5,25 @@ $color-white: #FFFFFF;
 
 $color-beige: #DCC7AA;
 $color-yellow: #F7C331;
-  $color-yellow-10: rgba(247, 136, 47, 0.1);
-  $color-yellow-20: rgba(247, 136, 47, 0.2);
 $color-orange: #F7882F;
 $color-gray: #6B7A8F;
+
+$shadow-white: 0.02em 0.02em $color-white;
+$shadow-gray: 0.06em 0.06em $color-gray;
+
+
+@mixin placeholder{
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+
+}

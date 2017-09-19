@@ -1,0 +1,42 @@
+@import "settings";
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+  &__button {
+    margin: 5px auto 50px;
+    width: 260px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 0;
+    color: $color-orange;
+    background: rgba($color-orange, 0.2);
+    text-shadow: $shadow-white ;
+  }
+
+  &__input {
+    border: 0;
+    background: rgba($color-orange, 0.1);
+    margin: auto;
+    text-align: center;
+    width: 320px;
+    max-width: 90%;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 30px;
+    color: $color-orange;
+
+    @include placeholder {
+      color: rgba($color-orange, 0.5);
+    };
+
+    &.inactive {
+      height: 0;
+    }
+  }
+}

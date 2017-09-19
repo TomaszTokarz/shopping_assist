@@ -4,11 +4,16 @@
 
 @import "_title_bar";
 @import "_footer";
+@import "_login";
 
 
 body {
     font-family: $font-family;
     color: $color-orange;
+}
+
+input, button {
+  font-family: $font-family;
 }
 
 .container {

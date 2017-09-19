@@ -5,7 +5,7 @@
     font-weight: 700;
     padding: 0 20px 15px;
     text-align: center;
-    text-shadow: 0.02em 0.02em $color-white, 0.06em 0.06em $color-gray ;
-    background: $color-yellow-10;
-    border-bottom: 2px solid $color-yellow-20;
+    text-shadow: $shadow-white, $shadow-gray ;
+    background: rgba($color-orange, 0.1);
+    border-bottom: 2px solid rgba($color-orange, 0.1);
 }
